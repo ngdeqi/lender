@@ -6,6 +6,12 @@ public class Loan {
 
     static private double maxLoanAmount;
 
+    public static int getMaxLoanValue() {
+        return maxLoanValue;
+    }
+
+    static private int maxLoanValue;
+
     public static double getMaxLoanAmount() {
         return maxLoanAmount;
     }
